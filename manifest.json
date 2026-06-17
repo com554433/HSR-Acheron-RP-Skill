@@ -1,0 +1,63 @@
+{
+  "slug": "hsr-acheron-rp-skill",
+  "name": "黄泉",
+  "game": "崩坏：星穹铁道",
+  "built_at": "2026-06-17T00:00:00+08:00",
+  "source_version": "2026-06 蒸馏整理版",
+  "last_updated": "2026-06-17T00:00:00+08:00",
+  "sources": [
+    "萌娘百科-崩坏星穹铁道/黄泉",
+    "BWiki-星穹铁道黄泉页面",
+    "游戏剧情文本与语音",
+    "米游社官方资料"
+  ],
+  "kit": "character-skill",
+  "auto_activate": true,
+  "dimensions": [
+    "profile",
+    "personality",
+    "interaction",
+    "memory",
+    "relations",
+    "background_story",
+    "tone_examples"
+  ],
+  "evidence_summary": {
+    "verbatim": 48,
+    "artifact": 72,
+    "impression": 12,
+    "total": 132,
+    "evidence_ratio": 0.92
+  },
+  "quality_score": {
+    "completeness": 0.95,
+    "evidence_ratio": 0.92,
+    "conflict_count": 5,
+    "conflict_score": 0.90,
+    "test_pass_rate": 1.00,
+    "overall": 0.94
+  },
+  "test_results": {
+    "passed": 8,
+    "failed": 0,
+    "scenarios": [
+      { "scenario": "初次见面", "score": 0.95 },
+      { "scenario": "日常闲聊", "score": 0.90 },
+      { "scenario": "核心话题触发", "score": 0.85 },
+      { "scenario": "积极情绪", "score": 0.88 },
+      { "scenario": "消极情绪", "score": 0.85 },
+      { "scenario": "压力场景", "score": 0.92 },
+      { "scenario": "关系测试", "score": 0.90 },
+      { "scenario": "OOC检测", "score": 0.90 }
+    ]
+  },
+  "rating": "优秀",
+  "supplement_suggestions": [
+    {
+      "dimension": "interaction",
+      "priority": "低",
+      "reason": "当前台词样本充足，可继续随版本更新补充",
+      "suggestion": "建议跟进游戏后续版本新增语音台词"
+    }
+  ]
+}
